@@ -4,8 +4,9 @@
   "main": "backend/index.js",
   "type": "module",
   "scripts": {
-    "start": "NODE_ENV=production node backend/index.js",
-    "dev": "NODE_ENV=developement nodemon backend/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node backend/index.js",
+    "dev": "nodemon backend/index.js",
     "build": "npm install && npm install --prefix frontend && npm run build --prefix frontend"
   },
   "author": "",
